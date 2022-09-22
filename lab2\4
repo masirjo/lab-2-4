@@ -1,0 +1,7 @@
+a =[4, 1, 2, 3, 0, 5, 6]
+if len(a) < 4:
+  print("Eror")
+  else:
+  b = list(a)
+  b.sort()
+print(b[1:-1])
